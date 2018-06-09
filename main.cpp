@@ -213,7 +213,6 @@ void Func_teste::close() {
     SDL_DestroyTexture(Galinha.textura);
     SDL_DestroyRenderer(render);
     SDL_DestroyWindow(janela);
-    tela = NULL;*/
     janela = NULL;
     render = NULL;
     // Mix_FreeMusic (music);
